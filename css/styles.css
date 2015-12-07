@@ -1,0 +1,61 @@
+
+#bigdiv {
+	margin: auto;
+}
+
+
+#header {
+	width: 100%;
+	height: 100px;
+	padding-left: 75px;
+	padding-top: 20px;
+	color: #08088A;
+	font-size: 50px;
+	font-weight: bold;
+	font-family: 'Karla', sans-serif;
+}
+
+#exercises {
+	width: 500px;
+	height: 500px;
+	padding-left: 75px;
+	padding-top: 5px;
+	color: #08088A ;
+	font-family: 'Karla', sans-serif;
+	float: left;
+}
+
+#projects {
+	width: 300px;
+	height: 500px;
+	padding-left: 75px;
+	padding-top: 5px;
+	color: #08088A ;
+	font-family: 'Karla', sans-serif;
+	float: left;
+}
+
+#codecademy {
+	width: 300px;
+	height: 500px;
+	padding-left: 5px;
+	padding-top: 5px;
+	color: #08088A ;
+	font-family: 'Karla', sans-serif;
+	float: left;
+}
+
+a:link {
+	color: #585858;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #585858;
+	text-decoration: none;
+}
+
+
+a:hover {
+	color: #5858FA;
+}
