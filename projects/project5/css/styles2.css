@@ -1,0 +1,176 @@
+#bench {
+	height: 400px;
+	width: 700px;
+	margin-top: 300px;
+	margin-left: 20px;
+	position: absolute;
+}
+
+#top {
+	height: 180px;
+	width: 500px;
+	margin-top: 100px;
+	margin-left: 400px;
+	/* background: #ff8475; */
+	float: left;
+	}
+
+#horizontal1 {
+	height: 30px;
+	width: 500px;
+	background: #00bfff;
+	border-radius: 40px;
+	position: absolute;
+	float: left; 
+}
+
+#horizontal2 {
+	height: 30px;
+	width: 500px;
+	background: #ffffff;
+	margin-top: 30px;
+	position: absolute;
+	float: left; 
+}
+
+#horizontal3 {
+	height: 30px;
+	width: 500px;
+	background: #00bfff;
+	border-radius: 40px;
+	margin-top: 60px;
+	position: absolute;
+	float: left; 
+}
+
+#horizontal4 {
+	height: 30px;
+	width: 500px;
+	background: #ffffff;
+	margin-top: 90px;
+	position: absolute;
+	float: left; 
+}
+
+#horizontal5 {
+	height: 30px;
+	width: 500px;
+	background: #00bfff;
+	border-radius: 40px;
+	margin-top: 120px;
+	position: absolute;
+	float: left; 
+}
+
+#horizontal6 {
+	height: 30px;
+	width: 500px;
+	background: #ffffff;
+	margin-top: 150px;
+	position: absolute;
+	float: left; 
+}
+
+/* seat */
+
+#seat {
+	height: 30px;
+	width: 600px;
+	background: #00bfff;
+	border-radius: 40px;
+	margin-top: 280px;
+	margin-left: 350px;
+	position: absolute;
+	float: left; 
+}
+
+/* upper vertical slats */
+
+#leftverticalback {
+	height: 180px;
+	width: 30px;
+	background: #00bfff;
+	margin-top: 100px;
+	margin-left: 450px;
+	position: absolute;
+	float: left; 
+}
+
+#rightverticalback {
+	height: 180px;
+	width: 30px;
+	background: #00bfff;
+	margin-top: 100px;
+	margin-left: 820px;
+	position: absolute;
+	float: left; 
+}
+
+/* lower vertical slats */
+
+#leftlowerpost {
+	height: 50px;
+	width: 30px;
+	background: #00bfff;
+	margin-top: 310px;
+	margin-left: 400px;
+	position: absolute;
+	float: left; 
+}
+
+#rightlowerpost {
+	height: 50px;
+	width: 30px;
+	background: #00bfff;
+	margin-top: 310px;
+	margin-left: 870px;
+	position: absolute;
+	float: left; 
+}
+
+/* grass */
+
+#grasspatch1 { 
+	width: 40px;
+	height: 40px;
+	margin-left: 340px;
+	margin-top: 630px;
+	position: absolute;
+}
+
+#grasspatch2 { 
+	width: 40px;
+	height: 40px;
+	margin-left: 915px;
+	margin-top: 643px;
+	position: absolute;
+}
+
+#grasspatch3 { 
+	width: 40px;
+	height: 40px;
+	margin-left: 918px;
+	margin-top: 635px;
+	position: absolute;
+}
+
+#grass {
+	width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 30px solid #80ec13;
+	position: absolute;
+}
+
+#grass2 {
+	width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 30px solid #80d926;
+	position: absolute;
+}
+
+
+

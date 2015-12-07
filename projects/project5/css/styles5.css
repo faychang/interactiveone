@@ -1,0 +1,242 @@
+/* div for entire sun */
+
+#sunshine {
+	margin-left: 100px;
+	margin-top: 50px;
+	height: 700px;
+	width: 700px;
+}
+
+/* div just for rays */
+
+#rays {
+	height: 600px;
+	width: 600px;
+	margin-top: 10px;
+	margin-left: 300px;
+	position: absolute;
+	}
+
+/* rays pulse animation */
+
+@keyframes pulse {
+  0% {
+  	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid #ff9933;
+  }
+  100% {
+  	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+    border-bottom: 100px solid #f47521;
+  }
+}
+
+#ray1 {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid #f47521;
+	margin-top: 40px;
+	margin-left: 245px;
+	position: absolute;
+	
+}
+
+#ray2 {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid #f47521;
+	margin-top: 70px;
+	margin-left: 350px;
+	transform: rotate(30deg);
+	position: absolute;
+	animation: pulse 2s infinite;
+}
+
+#ray3 {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid #f47521;
+	margin-top: 150px;
+	margin-left: 435px;
+	transform: rotate(60deg);
+	position: absolute;
+	
+}
+
+#ray4 {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid #f47521;
+	margin-top: 250px;
+	margin-left: 463px;
+	transform: rotate(90deg);
+	position: absolute;
+	animation: pulse 2s infinite;
+}
+
+#ray5 {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid #f47521;
+	margin-top: 360px;
+	margin-left: 435px;
+	transform: rotate(120deg);
+	position: absolute;
+	
+}
+
+#ray6 {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid #f47521;
+	margin-top: 445px;
+	margin-left: 350px;
+	transform: rotate(150deg);
+	position: absolute;
+	animation: pulse 2s infinite;
+}
+
+#ray7 {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid #f47521;
+	margin-top: 470px;
+	margin-left: 245px;
+	transform: rotate(180deg);
+	position: absolute;
+	
+}
+
+#ray8 {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid #f47521;
+	margin-top: 445px;
+	margin-left: 140px;
+	transform: rotate(210deg);
+	position: absolute;
+	animation: pulse 2s infinite;
+}
+
+#ray9 {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid #f47521;
+	margin-top: 360px;
+	margin-left: 55px;
+	transform: rotate(240deg);
+	position: absolute;
+	
+}
+
+#ray10 {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid #f47521;
+	margin-top: 250px;
+	margin-left: 30px;
+	transform: rotate(270deg);
+	position: absolute;
+	animation: pulse 2s infinite;
+}
+
+#ray11 {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid #f47521;
+	margin-top: 150px;
+	margin-left: 65px;
+	transform: rotate(300deg);
+	position: absolute;
+	
+}
+
+#ray12 {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid #f47521;
+	margin-top: 70px;
+	margin-left: 140px;
+	transform: rotate(330deg);
+	position: absolute;
+	animation: pulse 2s infinite;
+}
+
+/* main div for sun center */
+
+#center {
+	height: 400px;
+	width: 400px;
+	/* background: blue; */
+	margin-top: 100px;
+	margin-left: 390px;
+	z-index: 1;
+	position: absolute;
+}
+
+
+
+
+/* individual sun center divs */
+
+#circle1 {
+	height: 350px;
+	width: 350px;
+	border-radius: 50%;
+	background: #f47521;
+	margin-top: 40px;
+	margin-left: 30px;
+	position: absolute;
+	z-index: 2;
+	
+}
+
+#circle2 {
+	height: 300px;
+	width: 300px;
+	border-radius: 50%;
+	background: #f1a722;
+	margin-top: 65px;
+	margin-left: 55px;
+	position: absolute;
+	z-index: 3;
+	
+}
+
+#circle3 {
+	height: 250px;
+	width: 250px;
+	border-radius: 50%;
+	background: #fff203;
+	margin-top: 90px;
+	margin-left: 80px;
+	position: absolute;
+	z-index: 4;
+	
+}
+

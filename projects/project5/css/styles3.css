@@ -1,0 +1,96 @@
+/* ice cream */
+
+
+#icecream {
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	background: #FFC0CB;
+	margin-top: 100px;
+	margin-left: 425px;
+	position: absolute;
+}
+
+/* ice cream edge */
+
+#icecreamborder {
+	height: 70px;
+	width: 250px;
+/*	background: #000000; */
+	margin-top: 250px;
+	margin-left: 400px;
+	position: absolute;
+}
+
+#circle1 {
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	background: #FFC0CB;
+	margin-top: 20px;
+	margin-left: 10px;
+	z-index: 1;
+}
+
+#circle2 {
+	height: 70px;
+	width: 70px;
+	border-radius: 50%;
+	background: #FFC0CB;
+	margin-top: -50px;
+	margin-left: 30px;
+	z-index: 2;
+}
+
+#circle3 {
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	background: #FFC0CB;
+	margin-top: -50px;
+	margin-left: 70px;
+	z-index: 3;
+}
+
+#circle4 {
+	height: 70px;
+	width: 70px;
+	border-radius: 50%;
+	background: #FFC0CB;
+	margin-top: -70px;
+	margin-left: 110px;
+	z-index: 4;
+}
+
+#circle5 {
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	background: #FFC0CB;
+	margin-top: -50px;
+	margin-left: 170px;
+	z-index: 5;
+}
+
+#circle6 {
+	height: 60px;
+	width: 60px;
+	border-radius: 50%;
+	background: #FFC0CB;
+	margin-top: -50px;
+	margin-left: 180px;
+	z-index: 6;
+}
+
+/* cone */
+
+#cone {
+	margin-top: 300px;
+	margin-left: 475px;
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 250px solid #ff8c00;
+	position: absolute;
+}
